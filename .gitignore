@@ -17,6 +17,8 @@ pip-delete-this-directory.txt
 
 # --- ML-Agents Training Outputs ---
 results/
+!results/backups/
+!results/backups/**
 summaries/
 models/
 *.onnx
