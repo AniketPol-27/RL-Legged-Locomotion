@@ -1,0 +1,65 @@
+{
+    "Walker": {
+        "checkpoints": [
+            {
+                "steps": 19499496,
+                "file_path": "results\\walker_gpu_01\\Walker\\Walker-19499496.onnx",
+                "reward": 845.6103088672345,
+                "creation_time": 1777674443.8197968,
+                "auxillary_file_paths": [
+                    "results\\walker_gpu_01\\Walker\\Walker-19499496.pt"
+                ]
+            },
+            {
+                "steps": 19999163,
+                "file_path": "results\\walker_gpu_01\\Walker\\Walker-19999163.onnx",
+                "reward": 1342.3394138901322,
+                "creation_time": 1777675031.0545762,
+                "auxillary_file_paths": [
+                    "results\\walker_gpu_01\\Walker\\Walker-19999163.pt"
+                ]
+            },
+            {
+                "steps": 20499820,
+                "file_path": "results\\walker_gpu_01\\Walker\\Walker-20499820.onnx",
+                "reward": 1665.6695353190105,
+                "creation_time": 1777675614.7753835,
+                "auxillary_file_paths": [
+                    "results\\walker_gpu_01\\Walker\\Walker-20499820.pt"
+                ]
+            },
+            {
+                "steps": 20999329,
+                "file_path": "results\\walker_gpu_01\\Walker\\Walker-20999329.onnx",
+                "reward": 1658.0926496717666,
+                "creation_time": 1777676198.668339,
+                "auxillary_file_paths": [
+                    "results\\walker_gpu_01\\Walker\\Walker-20999329.pt"
+                ]
+            },
+            {
+                "steps": 21426024,
+                "file_path": "results\\walker_gpu_01\\Walker\\Walker-21426024.onnx",
+                "reward": null,
+                "creation_time": 1777676699.951005,
+                "auxillary_file_paths": [
+                    "results\\walker_gpu_01\\Walker\\Walker-21426024.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 21426024,
+            "file_path": "results\\walker_gpu_01\\Walker.onnx",
+            "reward": null,
+            "creation_time": 1777676699.951005,
+            "auxillary_file_paths": [
+                "results\\walker_gpu_01\\Walker\\Walker-21426024.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

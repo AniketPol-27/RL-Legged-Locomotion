@@ -16,13 +16,16 @@ pip-delete-this-directory.txt
 .pytest_cache/
 
 # --- ML-Agents Training Outputs ---
-results/
+# --- ML-Agents Training Outputs ---
+results/*
 !results/backups/
 !results/backups/**
 summaries/
 models/
 *.onnx
 !Assets/**/*.onnx
+!results/backups/**/*.onnx
+!results/backups/*.onnx
 run_logs/
 
 # --- Reference Clone (huge, don't commit) ---
